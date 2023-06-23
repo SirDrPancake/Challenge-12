@@ -14,3 +14,12 @@ db.connect(function(err) {
   if (err) throw err;
   start();
 });
+
+function start() {
+  inquirer.prompt({
+    name: 'action',
+    type: 'list',
+    message: 'What would you like to do?',
+    choices: []
+}
+)};
