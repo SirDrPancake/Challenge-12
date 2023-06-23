@@ -8,3 +8,9 @@ const db = mysql.createConnection({
   password: 'password',
   database: 'employee_tracker'
 });
+
+
+db.connect(function(err) {
+  if (err) throw err;
+  start();
+});
