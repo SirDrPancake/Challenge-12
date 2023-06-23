@@ -1,5 +1,5 @@
 # Employee Tracker
-A command-line application to manage a company's employee database, using Node.js, Inquirer, and MySQL.
+Build a command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL.
 
 ## Acceptance Criteria
 ```
@@ -21,3 +21,27 @@ THEN I am prompted to enter the employee’s first name, last name, role, and ma
 WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database 
 ```
+## Installation
+
+You need to have Node.js and MySQL installed on your machine to run this application.
+
+1. Clone this repository.
+2. Go to the project directory in the terminal.
+3. Run `npm install`
+4. Run `mysql -u root -p` and enter your MySQL password.
+5. Then run `source schema.sql` to set up the database.
+6.  Run `node server.js` to start the application.
+
+## Technologies Used
+
+- Node.js
+- Inquirer
+- MySQL
+
+## License
+
+N/A
+
+## Contact
+
+For any questions, feel free to contact me at github.com/SirDrPancake.
