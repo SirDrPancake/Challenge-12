@@ -1,7 +1,7 @@
-#Employee Tracker
+# Employee Tracker
 A command-line application to manage a company's employee database, using Node.js, Inquirer, and MySQL.
 
-##Acceptance Criteria
+## Acceptance Criteria
 '''
 GIVEN a command-line application that accepts user input
 WHEN I start the application
